@@ -95,8 +95,8 @@ public class Sorting{
         }
 
         Sorting sorted = new Sorting();
-        // sorted.BubbleSort(arr);
-        // sorted.InsertionSort(arr);
+        sorted.BubbleSort(arr);
+        sorted.InsertionSort(arr);
         sorted.SelectionSort(arr);
 
         System.out.println(Arrays.toString(arr));
